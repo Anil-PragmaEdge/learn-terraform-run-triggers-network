@@ -1,3 +1,14 @@
+variable aws_access_key_id {
+  description = "AWS access Key"
+  type        = string
+  default     = "AKIAVOONRA7IFQMAXH4L"
+}
+
+variable aws_secret_access_key {
+   description = "AWS secret access key"
+   type        = string
+   default     = "mS1/m+AKu1NmT46Bq5+To4QhqkSceXP9G5syeNjc"
+}
 variable aws_region {
   description = "AWS region"
   type        = string
