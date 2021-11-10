@@ -9,10 +9,10 @@ terraform {
 
 provider "aws" {
   # Configuration options
-  region                = var.aws_region
-  profile               = "bojja"
-  aws_access_key_id     = var.aws_access_key
-  aws_secret_access_key = var.aws_secret_access_key
+  region     = var.aws_region
+  profile    = "bojja"
+  access_key = var.access_key
+  secret_key = var.secret_key
 }
 
 data "aws_availability_zones" "available" {
